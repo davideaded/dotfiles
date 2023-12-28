@@ -1,0 +1,11 @@
+" configs
+set backup
+set termguicolors
+set relativenumber
+set runtimepath+=~/.vim-plugins/LanguageClient-neovim
+filetype plugin indent on
+
+colorscheme GruberDarker
+
+" remaps
+inoremap ii <Esc>

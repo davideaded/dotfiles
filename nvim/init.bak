@@ -1,0 +1,10 @@
+" configs
+set backup
+set termguicolors
+set relativenumber
+filetype plugin indent on
+
+colorscheme GruberDarker
+
+" remaps
+inoremap ii <Esc>
