@@ -1,14 +1,14 @@
 font:
   normal:
-    family: Hack
-    style: Regular
-  bold:
-    family: Hack
+    family: 'Spleen 8x16'
     style: Medium
+  bold:
+    family: 'Spleen 8x16'
+    style: Bold
   italic:
-    family: Hack
-    style: 'Light Italic'
-  size: 10.0
+    family: 'Spleen 8x16'
+    style: Italic
+  size: 12.0
 cursor:
   style:
     blinking: Always
@@ -17,23 +17,26 @@ cursor:
 # Theme:
 colors:
   primary:
-    background: "#2d353b"
-    foreground: "#d3c6aa"
+    background: "#000000"
+    foreground: "#ffffff"
+  cursor:
+    text: "#F81CE5"
+    cursor: "#ffffff"
   normal:
-    black: "#475258"
-    red: "#e67e80"
-    green: "#a7c080"
-    yellow: "#dbbc7f"
-    blue: "#7fbbb3"
-    magenta: "#d699b6"
-    cyan: "#83c092"
-    white: "#d3c6aa"
+    black: "#000000"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#feff00"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#d0d0d0"
   bright:
-    black: "#475258"
-    red: "#e67e80"
-    green: "#a7c080"
-    yellow: "#dbbc7f"
-    blue: "#7fbbb3"
-    magenta: "#d699b6"
-    cyan: "#83c092"
-    white: "#d3c6aa"
+    black: "#808080"
+    red: "#fe0100"
+    green: "#33ff00"
+    yellow: "#feff00"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#FFFFFF"

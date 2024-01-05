@@ -39,8 +39,6 @@ lazy.setup({
 	{'nvim-telescope/telescope.nvim', tag = '0.1.4', dependencies = { 'nvim-lua/plenary.nvim' }},
 	{"kylechui/nvim-surround", version = "*", event = "VeryLazy", config = {}},
 	{'akinsho/toggleterm.nvim', version = "*", config = true},
-  {'rose-pine/neovim', name = 'rose-pine'},
-	{"mcchrish/zenbones.nvim", dependencies = { "rktjmp/lush.nvim" }},
 	{"williamboman/mason.nvim"},
 	{"williamboman/mason-lspconfig.nvim"},
 	{"neovim/nvim-lspconfig"},
@@ -49,5 +47,5 @@ lazy.setup({
 	{'L3MON4D3/LuaSnip'},
 	{"saadparwaiz1/cmp_luasnip"},
 	{"rafamadriz/friendly-snippets"},
-	{"lunarvim/templeos.nvim"},
+	{'kyoto-shift/film-noir'},
 })
