@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Kurenai",
+    "workbench.iconTheme": "easy-icons",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'Spleen 8x16', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontSize": 16,
+    "telemetry.telemetryLevel": "off",
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["i", "i"],
+          "after": ["<Esc>"]
+        }
+      ],
+}
