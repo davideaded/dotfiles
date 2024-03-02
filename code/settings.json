@@ -1,14 +1,52 @@
 {
-    "workbench.colorTheme": "Kurenai",
-    "workbench.iconTheme": "easy-icons",
-    "editor.tabSize": 2,
-    "editor.fontFamily": "'Spleen 8x16', 'Droid Sans Mono', 'monospace', monospace",
-    "editor.fontSize": 16,
-    "telemetry.telemetryLevel": "off",
-    "vim.insertModeKeyBindings": [
-        {
-          "before": ["i", "i"],
-          "after": ["<Esc>"]
-        }
+  "workbench.iconTheme": "easy-icons",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Cascadia Code', 'Consolas','Spleen 8x16', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontSize": 14,
+  "telemetry.telemetryLevel": "off",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "i",
+        "i"
       ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "workbench.colorTheme": "Kurenai",
+
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden",
+  },
+  "apc.menubar.compact": true,
+  "apc.header": {
+    "height": 20,
+    "fontSize": 11
+  },
+  "apc.listRow": {
+    "height": 20,
+    "fontSize": 15
+  },
+  "apc.sidebar.titlebar": {
+    "height": 20
+  },
+  "apc.activityBar": {
+    "size": 20,
+    "itemSize": 20,
+    "itemMargin": 0
+  },
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+
+  "apc.stylesheet": {
+    ".title-label": "display: none !important",
+    ".composite.title": "display: block !important",
+    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
+  },
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
 }

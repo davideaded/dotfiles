@@ -1,16 +1,16 @@
 [
   {
-    "key": "space e",
+    "key": "ctrl+e",
     "command": "workbench.action.closeSidebar",
     "when": "explorerViewletVisible"
   },
   {
-    "key": "space e",
+    "key": "ctrl+e",
     "command": "workbench.view.explorer",
     "when": "!explorerViewletVisible"
   },
   {
-    "key": "space w",
+    "key": "ctrl+w",
     "command": "workbench.action.files.save",
     "when": "editorTextFocus"
   }
