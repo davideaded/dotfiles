@@ -1,0 +1,37 @@
+[
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.closeSidebar",
+    "when": "explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.view.explorer",
+    "when": "!explorerViewletVisible"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "workbench.action.files.save",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "alt+h",
+    "command": "workbench.action.navigateLeft"
+  },
+  {
+    "key": "alt+l",
+    "command": "workbench.action.navigateRight"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.navigateDown"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.navigateUp"
+  }
+]
