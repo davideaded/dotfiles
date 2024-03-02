@@ -1,37 +1,62 @@
-[
-  {
-    "key": "ctrl+e",
-    "command": "workbench.action.closeSidebar",
-    "when": "explorerViewletVisible"
+{
+  // apc config
+
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden",
   },
-  {
-    "key": "ctrl+e",
-    "command": "workbench.view.explorer",
-    "when": "!explorerViewletVisible"
+  "apc.menubar.compact": true,
+  "apc.header": {
+    "height": 20,
+    "fontSize": 11
   },
-  {
-    "key": "ctrl+w",
-    "command": "workbench.action.files.save",
-    "when": "editorTextFocus"
+  "apc.listRow": {
+    "height": 20,
+    "fontSize": 15
   },
-  {
-    "key": "ctrl+l",
-    "command": "workbench.action.terminal.toggleTerminal"
+  "apc.sidebar.titlebar": {
+    "height": 20
   },
-  {
-    "key": "alt+h",
-    "command": "workbench.action.navigateLeft"
+  "apc.activityBar": {
+    "size": 30,
+    "itemSize": 30,
+    "itemMargin": 5
   },
-  {
-    "key": "alt+l",
-    "command": "workbench.action.navigateRight"
-  },
-  {
-    "key": "alt+j",
-    "command": "workbench.action.navigateDown"
-  },
-  {
-    "key": "alt+k",
-    "command": "workbench.action.navigateUp"
-  }
-]
+
+  // "apc.stylesheet": {
+  //   ".title-label": "display: none !important",
+  //   ".composite.title": "display: block !important",
+  //   ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important"
+  // },
+
+  // ====================
+
+  "workbench.iconTheme": "easy-icons",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Kurenai",
+  "window.titleBarStyle": "native",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+
+  // vim
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "i",
+        "i"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  // ========
+}
