@@ -10,11 +10,6 @@
     "when": "!explorerViewletVisible"
   },
   {
-    "key": "ctrl+w",
-    "command": "workbench.action.files.save",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "ctrl+l",
     "command": "workbench.action.terminal.toggleTerminal"
   },
@@ -33,5 +28,10 @@
   {
     "key": "alt+k",
     "command": "workbench.action.navigateUp"
-  }
+  },
+  {
+    "key": "ctrl+p",
+    "command": "workbench.action.quickOpen",
+    "when": "!editorFocus && vim.active"
+  },
 ]
