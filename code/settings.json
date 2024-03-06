@@ -31,24 +31,6 @@
 
   // ====================
 
-  "workbench.iconTheme": "easy-icons",
-  "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "telemetry.telemetryLevel": "off",
-  "workbench.colorTheme": "Moss Theme",
-  "window.titleBarStyle": "native",
-  "editor.minimap.enabled": false,
-  "workbench.sideBar.location": "right",
-  "window.commandCenter": false,
-  "window.customTitleBarVisibility": "never",
-  "editor.glyphMargin": false,
-  "editor.folding": false,
-  "editor.lineNumbers": "off",
-  "editor.scrollbar.vertical": "hidden",
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.verticalScrollbarSize": 0,
 
   // vim
   "vim.insertModeKeyBindings": [
@@ -70,5 +52,27 @@
       ]
     },
   ],
-  // ========
+  "workbench.iconTheme": "easy-icons",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 17,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Acid Purple (Orange)",
+  "window.titleBarStyle": "native",
+  "editor.minimap.enabled": false,
+  "workbench.sideBar.location": "right",
+  "window.commandCenter": false,
+  "window.customTitleBarVisibility": "never",
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "editor.lineNumbers": "off",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "workbench.statusBar.visible": false,
+  "solargraph.commandPath": "/home/dd/.rbenv/shims/solargraph",
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "workbench.activityBar.location": "hidden",
 }

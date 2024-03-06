@@ -34,4 +34,18 @@
     "command": "workbench.action.quickOpen",
     "when": "!editorFocus && vim.active"
   },
+  {
+    "key": "ctrl+[Quote]",
+    "command": "workbench.action.activityBarLocation.hide"
+  },
+  {
+    "key": "ctrl+[Semicolon]",
+    "command": "workbench.action.focusActivityBar"
+  },
+  // Example: Custom keybinding for selecting the next occurrence of the word
+  {
+    "key": "ctrl+d", // Replace with your desired key combination
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  }
 ]
