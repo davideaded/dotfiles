@@ -1,27 +1,27 @@
 {
   // apc config
 
-  "apc.electron": {
-    "frame": false,
-    "titleBarStyle": "hidden",
-  },
-  "apc.menubar.compact": true,
-  "apc.header": {
-    "height": 20,
-    "fontSize": 11
-  },
-  "apc.listRow": {
-    "height": 20,
-    "fontSize": 15
-  },
-  "apc.sidebar.titlebar": {
-    "height": 20
-  },
-  "apc.activityBar": {
-    "size": 30,
-    "itemSize": 30,
-    "itemMargin": 5
-  },
+  // "apc.electron": {
+  //   "frame": false,
+  //   "titleBarStyle": "hidden",
+  // },
+  // "apc.menubar.compact": true,
+  // "apc.header": {
+  //   "height": 20,
+  //   "fontSize": 11
+  // },
+  // "apc.listRow": {
+  //   "height": 20,
+  //   "fontSize": 15
+  // },
+  // "apc.sidebar.titlebar": {
+  //   "height": 20
+  // },
+  // "apc.activityBar": {
+  //   "size": 30,
+  //   "itemSize": 30,
+  //   "itemMargin": 5
+  // },
 
   // "apc.stylesheet": {
   //   ".title-label": "display: none !important",
@@ -54,11 +54,10 @@
   ],
   "workbench.iconTheme": "easy-icons",
   "editor.tabSize": 2,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "\"Iosevka\", \"GohuFont 14 Nerd Font\", \"Fira Code\"",
   "editor.fontLigatures": true,
-  "editor.fontSize": 17,
+  "editor.fontSize": 19,
   "telemetry.telemetryLevel": "off",
-  "workbench.colorTheme": "Acid Purple (Orange)",
   "window.titleBarStyle": "native",
   "editor.minimap.enabled": false,
   "workbench.sideBar.location": "right",
@@ -70,9 +69,14 @@
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "solargraph.commandPath": "/home/dd/.rbenv/shims/solargraph",
   "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "workbench.activityBar.location": "hidden",
+  "explorer.confirmDelete": false,
+  "workbench.colorTheme": "Minimal S Light",
+  "editor.cursorStyle": "underline",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.insert": "line",
 }
