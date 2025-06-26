@@ -86,7 +86,6 @@ lspconfig.vtsls.setup {
   on_attach = on_attach,
 }
 
-
--- themes and visual
+-- -- themes and visual
 vim.o.background = "light"
-vim.cmd("colorscheme codedark")
+vim.cmd("colorscheme sprinkles")
